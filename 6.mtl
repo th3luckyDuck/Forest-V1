@@ -1,0 +1,25 @@
+newmtl Roofing_Metal_Standing_Seam_Red
+Kd 1.000000 1.000000 1.000000
+illum 2
+map_Kd RoofingMetalStandingSeamRed.jpg
+
+newmtl Metal_Seamed
+Kd 1.000000 1.000000 1.000000
+illum 2
+map_Kd MetalSeamed.jpg
+
+newmtl Grass_Dark_Green
+Kd 1.000000 1.000000 1.000000
+illum 2
+map_Kd GrassDarkGreen.jpg
+
+newmtl Asphalt_New
+Kd 1.000000 1.000000 1.000000
+illum 2
+map_Kd AsphaltNew.jpg
+
+newmtl Polished_Concrete_Old
+Kd 1.000000 1.000000 1.000000
+illum 2
+map_Kd PolishedConcreteOld.jpg
+

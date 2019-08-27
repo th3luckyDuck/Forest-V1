@@ -1,0 +1,51 @@
+#
+## Alias OBJ Material File
+# Exported from SketchUp, (c) 2000-2012 Trimble Navigation Limited
+
+newmtl FrontColor
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
+
+newmtl BackColor
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 3
+
+newmtl _5
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
+
+newmtl _3
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
+
+newmtl _1
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
+
+newmtl Grass_Dark_Green
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
+
+newmtl _2
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
+
+newmtl _4
+Ka 0.9469 0.0078 0.2845
+Kd 0.9878 0.1695 0.6702
+Ks 0.7429 0.2972 0.2972
+illum 2
