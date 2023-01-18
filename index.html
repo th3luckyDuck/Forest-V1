@@ -61,19 +61,19 @@
         <img id="water" src="water.1024x512.jpg">
         <!--img id="sign3" src="sign3.jpg"-->
 
-        <a-mixin id="sword1" obj-model="obj: #sword1-obj; mtl: #sword1-mtl" collapse-model scale="0.25 0.25 .25"></a-mixin>
+        <!--<a-mixin id="sword1" obj-model="obj: #sword1-obj; mtl: #sword1-mtl" collapse-model scale="0.25 0.25 .25"></a-mixin>
         <a-mixin id="sword1-right" rotation="0 0 0" n-skeleton-parent="part: hand; side: right;" position="0 0.01 0.03" sync sync-n-skeleton-parent></a-mixin>
         <a-mixin id="sword2" obj-model="obj: #sword1-obj; mtl: #sword1-mtl" collapse-model scale="0.25 0.25 .25"></a-mixin>
-        <a-mixin id="sword2-left" rotation="0 0 0" n-skeleton-parent="part: spine;" position="0 0.01 0.03" sync sync-n-skeleton-parent></a-mixin>
+        <a-mixin id="sword2-left" rotation="0 0 0" n-skeleton-parent="part: spine;" position="0 0.01 0.03" sync sync-n-skeleton-parent></a-mixin>-->
 
       </a-assets>
 
       <!--a-entity position="0 7.5 -20" rotation="0 45 0" scale="15 15 15" n-layout-browser="url:http://hah.altvr.com/play; isEnclosure:true;"></a-entity-->
 
       <a-entity position="35 0 -30">
-      <!--a-entity position="-2 0 0" n-portal="targetSpace: experience-space-595301419582489209"><!--The Forest></a-entity-->
-      <a-entity position="0 0 0" n-portal="targetSpace: experience-space-611287350487548345"><!--Moonville--></a-entity>
-      <!--a-entity position="2 0 0" n-portal="targetSpace: experience-space-589443606482256792"><!--The Stadium></a-entity-->
+      <!--a-entity position="-2 0 0" n-portal="targetSpace: experience-space-595301419582489209"><The Forest></a-entity-->
+      <!--<a-entity position="0 0 0" n-portal="targetSpace: experience-space-611287350487548345"><Moonville></a-entity-->
+      <!--a-entity position="2 0 0" n-portal="targetSpace: experience-space-589443606482256792"><The Stadium></a-entity-->
       </a-entity>
 
       
@@ -105,11 +105,11 @@
     <!-- Aframe adds-->
 
 
-      <a-entity id="sword1r-instantiator" mixin="sword1" position="1 1.5 -5" rotation="-25 0 0" scale="0.15 0.15 0.15" instantiator="on: click; group: swordr; mixin: sword1 sword1-right"></a-entity>
+      <!--<a-entity id="sword1r-instantiator" mixin="sword1" position="1 1.5 -5" rotation="-25 0 0" scale="0.15 0.15 0.15" instantiator="on: click; group: swordr; mixin: sword1 sword1-right"></a-entity>
       <a-entity id="sword2l-instantiator" mixin="sword2" position="3 1.5 -5" rotation="-25 0 0" scale="0.15 0.15 0.15" instantiator="on: click; group: swordl; mixin: sword2 sword2-left"></a-entity>
 
-      <!--a-entity one-per-user="mixin: sword1 sword1-right"></a-entity>
-      <a-entity one-per-user="mixin: sword1 sword1-left"></a-entity-->
+      <a-entity one-per-user="mixin: sword1 sword1-right"></a-entity>
+      <a-entity one-per-user="mixin: sword1 sword1-left"></a-entity>-->
 
 
       <!--a-box material="src: #sky; repeat: 3 10" depth="11" height=".5" width="8" position="-36 30 -69" sq-collider sq-interactable handle-click></a-box>
@@ -128,18 +128,18 @@
      
     <!-- Landscape object add -->
 
-      <!--cached-obj-model scale="3 3 3" src="#grass-obj" mtl="#grass-mtl" wrapping position="0 0.04 0" sq-collider sq-interactable handle-click></cached-obj-model-->
-      <cached-gltf-model scale="3 3 3" src="/grass/grass.gltf" position="0 0 0" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-gltf-model>
-      <cached-gltf-model scale="3 3 3" src="land.gltf" position="0 0 0" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-gltf-model>
+      <!--cached-obj-model scale="3 3 3" src="#grass-obj" mtl="#grass-mtl" position="0 0.04 0" sq-collider sq-interactable handle-click></cached-obj-model-->
+      <cached-gltf-model scale="3 3 3" src="/grass/grass.gltf" position="0 0 0" rotation="0 0 0" sq-collider></cached-gltf-model>
+      <cached-gltf-model scale="3 3 3" src="land.gltf" position="0 0 0" rotation="0 0 0" sq-collider></cached-gltf-model>
 
-      <!--cached-obj-model scale="3 3 3" src="#land-obj" mtl="#land-mtl" wrapping position="0 0.04 0" sq-collider sq-interactable handle-click></cached-obj-model-->
+      <!--cached-obj-model scale="3 3 3" src="#land-obj" mtl="#land-mtl" position="0 0.04 0" sq-collider sq-interactable handle-click></cached-obj-model-->
       <!--a-entity id="landing" gltf-model="asset: #land; loop: true; auto: true;"-->
 
-      <cached-obj-model scale="3 3 3" src="#firelogs-obj" mtl="#grass-mtl" wrapping position="1.3 0 1.6" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#firelogs-obj" mtl="#grass-mtl" position="1.3 0 1.6" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
 
-      <cached-obj-model scale="1.5 1.5 1.5" src="#beer-obj" mtl="#beer-mtl" wrapping position="30 0 55" rotation="0 90 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="1.5 1.5 1.5" src="#beer-obj" mtl="#beer-mtl" position="30 0 55" rotation="0 90 0" sq-collider sq-interactable handle-click></cached-obj-model>
       
-      <cached-obj-model scale="1.45 1.45 1.45" src="#speakers-obj" mtl="#speakers-mtl" wrapping position="-8.5 0 50.75" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="1.45 1.45 1.45" src="#speakers-obj" mtl="#speakers-mtl" position="-8.5 0 50.75" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
 
     <!-- Tree Model 1 object adds-->
       <a-entity position="0 0 0">
@@ -158,28 +158,28 @@
        <a-animation attribute="position" dur="5000" easing="ease" direction="alternate" repeat="indefinite" from="0 0 0" to="0 0.3 0"></a-animation>
       </a-entity>
 
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="22 15 15" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-17 15 21" rotation="0 60 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-25 15 12" rotation="0 60 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-47 15 -47" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="57 15 47" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="53 15 43" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="22 15 15" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-17 15 21" rotation="0 60 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-25 15 12" rotation="0 60 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-47 15 -47" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="57 15 47" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="53 15 43" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
 
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="45 15 45" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="50 15 -5" rotation="0 26 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-22 15 38" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-38 15 48" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="53 15 -49" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="45 15 -15" rotation="0 203 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="52 15 5" rotation="0 286 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-46 15 46" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-48 15 14" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-54 15 -5" rotation="0 96 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-45 15 -47" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="43 15 -52" rotation="0 216 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="17 15 -48" rotation="0 86 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-19 15 -46" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" wrapping position="-38 15 -45" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="45 15 45" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="50 15 -5" rotation="0 26 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-22 15 38" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-38 15 48" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="53 15 -49" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="45 15 -15" rotation="0 203 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="52 15 5" rotation="0 286 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-46 15 46" rotation="0 36 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-48 15 14" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-54 15 -5" rotation="0 96 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-45 15 -47" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="43 15 -52" rotation="0 216 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="17 15 -48" rotation="0 86 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-19 15 -46" rotation="0 136 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="-38 15 -45" rotation="0 236 0" sq-collider sq-interactable handle-click></cached-obj-model>
 
       <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="109.7 18.82 2.07" rotation="0 286 0" sq-collider sq-interactable handle-click></cached-obj-model>
       <cached-obj-model scale="3 3 3" src="#tree1-obj" mtl="#grass-mtl" position="91.6 18.82 -41.7" rotation="0 286 0" sq-collider sq-interactable handle-click></cached-obj-model>
@@ -231,20 +231,20 @@
 
     <!-- Tree Model 2 object adds-->
 
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="6 15 -15" rotation="0 10 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-60 15 -15" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-49 15 -85" rotation="0 190 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="60 15 -60" rotation="0 90 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="60 15 34" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="41 15 43" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="36 15 2" rotation="0 110 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="22 15 29" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="22 15 -29" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-15 15 -15" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-17 15 -8" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-49 15 -31" rotation="0 300 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-27 15 -28" rotation="0 100 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" wrapping position="-25 15 -35" rotation="0 258 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="6 15 -15" rotation="0 10 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-60 15 -15" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-49 15 -85" rotation="0 190 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="60 15 -60" rotation="0 90 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="60 15 34" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="41 15 43" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="36 15 2" rotation="0 110 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="22 15 29" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="22 15 -29" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-15 15 -15" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-17 15 -8" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-49 15 -31" rotation="0 300 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-27 15 -28" rotation="0 100 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="-25 15 -35" rotation="0 258 0" sq-collider sq-interactable handle-click></cached-obj-model>
 
       <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="117.54 17.57 19.45" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
       <cached-obj-model scale="3 3 3" src="#tree2-obj" mtl="#grass-mtl" position="123.29 20.84 -20.39" rotation="0 210 0" sq-collider sq-interactable handle-click></cached-obj-model>
@@ -276,13 +276,13 @@
 
     <!-- Tree Model 3 object adds-->
 
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="10 15 -20" rotation="0 160 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="74 15 -56" rotation="0 100 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="-36 15 -70" rotation="0 240 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="36 15 70" rotation="0 40 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="56 15 -25" rotation="0 140 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="-55 15 45" rotation="0 350 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" wrapping position="-47 15 -25" rotation="0 200 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="10 15 -20" rotation="0 160 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="74 15 -56" rotation="0 100 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="-36 15 -70" rotation="0 240 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="36 15 70" rotation="0 40 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="56 15 -25" rotation="0 140 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="-55 15 45" rotation="0 350 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="-47 15 -25" rotation="0 200 0" sq-collider sq-interactable handle-click></cached-obj-model>
 
       <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="92.14 21.21 -66.02" rotation="0 100 0" sq-collider sq-interactable handle-click></cached-obj-model>
       <cached-obj-model scale="3 3 3" src="#tree3-obj" mtl="#grass-mtl" position="79.01 18.55 -21.1" rotation="0 100 0" sq-collider sq-interactable handle-click></cached-obj-model>
@@ -346,16 +346,16 @@
 
     <!-- Building adds-->
       <a-entity id="fly" position="0 0 0"  sync="own-on: go" sync-transform>
-      <cached-obj-model scale="3 3 3" src="#str1-obj" mtl="#grass-mtl" wrapping position="41 2.7 -26" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#str1-obj" mtl="#grass-mtl" position="41 2.7 -26" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
       <!--a-animation attribute="position" dur="40000" begin="go" easing="linear" repeat="0" fill="forwards" from="0 0 0" to="0 150 0"></a-animation-->
       </a-entity>
       <!--a-box id="m1" material="src: #bush; repeat: 1 1; visible: true"
            depth=".2" height=".2" width=".3" position="42.3 1 -32" 
            wire="on: click; emit: go; targets: #fly">
       </a-box-->
-      <cached-obj-model scale="3 3 3" src="#str2-obj" mtl="#grass-mtl" wrapping position="0.2 0 -4.43" rotation="0 12 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="3 3 3" src="#base1-obj" mtl="#grass-mtl" wrapping position="7 0 -0.1" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
-      <cached-obj-model scale="2.0 2.0 2.0" src="#str3-obj" mtl="#grass-mtl" wrapping position="-37.5 0 -0.1" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#str2-obj" mtl="#grass-mtl" position="0.2 0 -4.43" rotation="0 12 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="3 3 3" src="#base1-obj" mtl="#grass-mtl" position="7 0 -0.1" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
+      <cached-obj-model scale="2.0 2.0 2.0" src="#str3-obj" mtl="#grass-mtl" position="-37.5 0 -0.1" rotation="0 0 0" sq-collider sq-interactable handle-click></cached-obj-model>
       <!--<a-entity n-object="objects/basketball net" position="0 1.5 -20"></a-entity>
       <a-entity n-object="objects/basketball net" position="0 1.5 -30" rotation="0 180 0"></a-entity>-->
 
