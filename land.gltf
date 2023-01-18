@@ -1,0 +1,610 @@
+{
+  "accessors": {
+    "accessor_index_0": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 675,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        146
+      ]
+    },
+    "accessor_index_1": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 1350,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 354,
+      "type": "SCALAR",
+      "min": [
+        147
+      ],
+      "max": [
+        218
+      ]
+    },
+    "accessor_index_2": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 2058,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 7449,
+      "type": "SCALAR",
+      "min": [
+        219
+      ],
+      "max": [
+        1636
+      ]
+    },
+    "accessor_index_3": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 16956,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 408,
+      "type": "SCALAR",
+      "min": [
+        1637
+      ],
+      "max": [
+        1719
+      ]
+    },
+    "accessor_index_4": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 17772,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 3540,
+      "type": "SCALAR",
+      "min": [
+        1720
+      ],
+      "max": [
+        2432
+      ]
+    },
+    "accessor_index_5": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 24852,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 1797,
+      "type": "SCALAR",
+      "min": [
+        2433
+      ],
+      "max": [
+        2996
+      ]
+    },
+    "accessor_position": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 2997,
+      "min": [
+        -293.37274169921875,
+        -243.67547607421875,
+        -126.83140563964844
+      ],
+      "max": [
+        176.2335205078125,
+        98.28369903564453,
+        144.29322814941406
+      ],
+      "type": "VEC3"
+    },
+    "accessor_normal": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 35964,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 2997,
+      "type": "VEC3",
+      "min": [
+        -0.9914366602897644,
+        -0.6638312935829163,
+        -0.9999420046806335
+      ],
+      "max": [
+        0.9999717473983765,
+        1,
+        0.9876950979232788
+      ]
+    },
+    "accessor_uv": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 71928,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 2997,
+      "type": "VEC2",
+      "min": [
+        -220.82623291015625,
+        -159.96151733398438
+      ],
+      "max": [
+        166.4946746826172,
+        127.76258087158203
+      ]
+    }
+  },
+  "asset": {
+    "generator": "OBJ2GLTF",
+    "premultipliedAlpha": true,
+    "profile": {
+      "api": "WebGL",
+      "version": "1.0"
+    },
+    "version": "1.0"
+  },
+  "buffers": {
+    "buffer_0": {
+      "type": "arraybuffer",
+      "byteLength": 124350,
+      "uri": "buffer_0.bin"
+    }
+  },
+  "bufferViews": {
+    "bufferView_0": {
+      "buffer": "buffer_0",
+      "byteLength": 95904,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    "bufferView_1": {
+      "buffer": "buffer_0",
+      "byteLength": 28446,
+      "byteOffset": 95904,
+      "target": 34963
+    }
+  },
+  "images": {
+    "Grass_Dark_Green.512x512": {
+      "uri": "Grass_Dark_Green.512x512.jpeg"
+    },
+    "Sand.512x512": {
+      "uri": "Sand.512x512.jpeg"
+    },
+    "Shade_Grass_Dark_Green.512x512": {
+      "uri": "Shade_Grass_Dark_Green.512x512.jpeg"
+    },
+    "Snow": {
+      "uri": "Snow.jpeg"
+    },
+    "dirt": {
+      "uri": "dirt.jpeg"
+    },
+    "stone.512x512": {
+      "uri": "stone.512x512.jpeg"
+    }
+  },
+  "materials": {
+    "material_Grass_Dark_Green_512x512_jpgMaterial": {
+      "name": "Grass_Dark_Green_512x512_jpgMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Grass_Dark_Green.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_SandMaterial": {
+      "name": "SandMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Sand.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_Shade_Grass_Dark_Green_512x512_jpgMaterial": {
+      "name": "Shade_Grass_Dark_Green_512x512_jpgMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Shade_Grass_Dark_Green.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_SnowMaterial": {
+      "name": "SnowMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Snow",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_dirtMaterial": {
+      "name": "dirtMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_dirt",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_stoneMaterial": {
+      "name": "stoneMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_stone.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    }
+  },
+  "meshes": {
+    "mesh_land": {
+      "name": "land",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_0",
+          "material": "material_stoneMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_1",
+          "material": "material_SnowMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_2",
+          "material": "material_Grass_Dark_Green_512x512_jpgMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_3",
+          "material": "material_SandMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_4",
+          "material": "material_Shade_Grass_Dark_Green_512x512_jpgMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_5",
+          "material": "material_dirtMaterial",
+          "mode": 4
+        }
+      ]
+    }
+  },
+  "nodes": {
+    "rootNode": {
+      "children": [],
+      "meshes": [
+        "mesh_land"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "samplers": {
+    "sampler_0": {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  },
+  "scene": "scene_land",
+  "scenes": {
+    "scene_land": {
+      "nodes": [
+        "rootNode"
+      ]
+    }
+  },
+  "textures": {
+    "texture_Grass_Dark_Green.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Grass_Dark_Green.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_Sand.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Sand.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_Shade_Grass_Dark_Green.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Shade_Grass_Dark_Green.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_Snow": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Snow",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_dirt": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "dirt",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_stone.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "stone.512x512",
+      "target": 3553,
+      "type": 5121
+    }
+  },
+  "extensionsUsed": [],
+  "animations": {},
+  "cameras": {},
+  "techniques": {
+    "technique0": {
+      "attributes": {
+        "a_position": "position",
+        "a_normal": "normal",
+        "a_texcoord_0": "texcoord_0"
+      },
+      "parameters": {
+        "modelViewMatrix": {
+          "semantic": "MODELVIEW",
+          "type": 35676
+        },
+        "projectionMatrix": {
+          "semantic": "PROJECTION",
+          "type": 35676
+        },
+        "normalMatrix": {
+          "semantic": "MODELVIEWINVERSETRANSPOSE",
+          "type": 35675
+        },
+        "ambient": {
+          "type": 35666
+        },
+        "diffuse": {
+          "type": 35678
+        },
+        "emission": {
+          "type": 35666
+        },
+        "specular": {
+          "type": 35666
+        },
+        "shininess": {
+          "type": 5126
+        },
+        "transparency": {
+          "type": 5126
+        },
+        "position": {
+          "semantic": "POSITION",
+          "type": 35665
+        },
+        "normal": {
+          "semantic": "NORMAL",
+          "type": 35665
+        },
+        "texcoord_0": {
+          "semantic": "TEXCOORD_0",
+          "type": 35664
+        }
+      },
+      "program": "program0",
+      "states": {
+        "enable": [
+          2884,
+          2929
+        ]
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrix",
+        "u_projectionMatrix": "projectionMatrix",
+        "u_normalMatrix": "normalMatrix",
+        "u_ambient": "ambient",
+        "u_diffuse": "diffuse",
+        "u_emission": "emission",
+        "u_specular": "specular",
+        "u_shininess": "shininess",
+        "u_transparency": "transparency"
+      }
+    }
+  },
+  "programs": {
+    "program0": {
+      "attributes": [
+        "a_position",
+        "a_normal",
+        "a_texcoord_0"
+      ],
+      "fragmentShader": "fragmentShader0",
+      "vertexShader": "vertexShader0"
+    }
+  },
+  "shaders": {
+    "vertexShader0": {
+      "type": 35633,
+      "uri": "vertexShader0.glsl"
+    },
+    "fragmentShader0": {
+      "type": 35632,
+      "uri": "fragmentShader0.glsl"
+    }
+  },
+  "skins": {},
+  "extensions": {}
+}
