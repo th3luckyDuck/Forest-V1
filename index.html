@@ -20,8 +20,8 @@
       });
     </script>
     <!--<script src="https://cdn.rawgit.com/norybiak/Aframe-gltf/v0.1.2/dist/aframe-gltf.js"></script>-->
-    <script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
-    <script src="https://rawgit.com/mayognaise/aframe-gif-component/master/dist/aframe-gif-component.min.js"></script>
+    <!--script src="https://rawgit.com/mayognaise/aframe-gif-shader/master/dist/aframe-gif-shader.min.js"></script>
+    <script src="https://rawgit.com/mayognaise/aframe-gif-component/master/dist/aframe-gif-component.min.js"></script-->
     <script src="cached-model.js"></script>
     
 
@@ -84,7 +84,7 @@
 
       <a-image scale="2.8 2.8 2.8" src="#poster" position="3.96 2.1 3.96" rotation="0 225 0"></a-image>
 
-      <a-entity geometry="primitive:plane;" scale="2.8 2.8 2.8" position="3.95 2.1 3.95" rotation="0 225 0" material="shader:gif;src:url(zeldafall.gif);transparent:true;color:#fff;opacity:0.75 ">
+      <a-entity geometry="primitive:plane;" scale="2.8 2.8 2.8" position="3.95 2.1 3.95" rotation="0 225 0" material="zeldafall.gif">
       </a-entity>
 
       <!--a-image scale="2 2 2" src="#sign3" position="0 1.8 -6" rotation="0 0 0"></a-image-->
@@ -95,14 +95,18 @@
 
     <!-- Fire anim -->
 
-      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 0 0" material="shader:gif;src:url(fire2.gif);transparent:true;color:#fff;opacity:0.75"></a-entity>
-      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 90 0" material="shader:gif;src:url(fire2.gif);transparent:true;color:#fff;opacity:0.75"></a-entity>
-      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 180 0" material="shader:gif;src:url(fire2.gif);transparent:true;color:#fff;opacity:0.75"></a-entity>
-      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 270 0"  material="shader:gif;src:url(fire2.gif);transparent:true;color:#fff;opacity:0.75"></a-entity><!--sound="src: url(nature.ogg); autoplay: true; loop: true"-->      
+      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 0 0" material="fire2.gif"></a-entity>
+      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 90 0" material="fire2.gif"></a-entity>
+      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 180 0" material="fire2.gif"></a-entity>
+      <a-entity geometry="primitive:plane;" position="-38 0.9 -31" rotation="0 270 0"  material="fire2.gif"></a-entity><!--sound="src: url(nature.ogg); autoplay: true; loop: true"-->      
 
     <!-- Waterfall -->
      
-      <a-entity geometry="primitive:plane;" scale="15 19 10" position="9 3 57" rotation="0 240 0" material="shader:gif;src:url(fall.gif);transparent:true;color:#fff;opacity:0.75"></a-entity>
+      <a-entity geometry="primitive:plane;" scale="15 19 10" position="9 3 57" rotation="0 240 0" material="fall.gif"></a-entity>
+      <!--
+      material="shader:gif;src:url(fall.gif);transparent:true;color:#fff;opacity:0.75"
+      material="fire2.gif"
+      shader:gif;src:url(zeldafall.gif);transparent:true;color:#fff;opacity:0.75 -->
 
     <!-- Aframe adds-->
 
