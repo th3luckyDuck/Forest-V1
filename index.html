@@ -52,6 +52,8 @@
         <a-asset-item id="speakers-mtl" src="speakers.mtl"></a-asset-item>
         <a-asset-item id="sword1-obj" src="sword1.obj"></a-asset-item>
         <a-asset-item id="sword1-mtl" src="sword1.mtl"></a-asset-item>
+        <a-asset-item id="gra" src="/grass/grass.gltf"></a-asset-item>
+        <a-asset-item id="lan" src="land.gltf"></a-asset-item>
      
       <!-- Image assets -->  
 
@@ -129,8 +131,8 @@
     <!-- Landscape object add -->
 
       <!--cached-obj-model scale="3 3 3" src="#grass-obj" mtl="#grass-mtl" position="0 0.04 0" sq-collider sq-interactable handle-click></cached-obj-model-->
-      <a-entity scale="3 3 3" gltf-model="/grass/grass.gltf" position="0 0 0" rotation="0 0 0" sq-collider></a-entity>
-      <a-entity scale="3 3 3" gltf-model="land.gltf" position="0 0 0" rotation="0 0 0" sq-collider></a-entity>
+      <a-entity scale="3 3 3" gltf-model="gra" position="0 0 0" rotation="0 0 0" sq-collider></a-entity>
+      <a-entity scale="3 3 3" gltf-model="lan" position="0 0 0" rotation="0 0 0" sq-collider></a-entity>
 
       <!--cached-obj-model scale="3 3 3" src="#land-obj" mtl="#land-mtl" position="0 0.04 0" sq-collider sq-interactable handle-click></cached-obj-model-->
       <!--a-entity id="landing" gltf-model="asset: #land; loop: true; auto: true;"-->
