@@ -24,7 +24,8 @@
       <!-- Asset Loading -->
 
       <a-assets>
-        <a-asset-item id="grass-mtl" src="grass.mtl"></a-asset-item>
+        <a-asset-item id="grass-glb" src="grass.glb"></a-asset-item>
+        <!--a-asset-item id="grass-mtl" src="grass.mtl"></a-asset-item>
         <a-asset-item id="grass-obj" src="grass.obj"></a-asset-item>
         <a-asset-item id="land-mtl" src="land.mtl"></a-asset-item>
         <a-asset-item id="land-obj" src="land.obj"></a-asset-item>
@@ -41,7 +42,7 @@
         <a-asset-item id="speakers-obj" src="speakers.obj"></a-asset-item>
         <a-asset-item id="speakers-mtl" src="speakers.mtl"></a-asset-item>
         <a-asset-item id="sword1-obj" src="sword1.obj"></a-asset-item>
-        <a-asset-item id="sword1-mtl" src="sword1.mtl"></a-asset-item>
+        <a-asset-item id="sword1-mtl" src="sword1.mtl"></a-asset-item-->
         <!--a-asset-item id="gra" src="grass.gltf"></a-asset-item>
         <a-asset-item id="lan" src="land.gltf"></a-asset-item-->
      
@@ -90,7 +91,7 @@
 
     <!-- Waterfall -->
      
-      <a-image geometry="primitive:plane;" scale="15 19 10" position="9 3 57" rotation="0 240 0" src="fall.gif"></a-image>
+      <a-image scale="15 19 10" position="9 3 57" rotation="0 240 0" src="fall.gif"></a-image>
 
 
     <!-- Aframe adds-->
@@ -98,15 +99,16 @@
      
     <!-- Landscape object add -->
 
+      <a-entity scale="3 3 3" gltf-model="#grass-glb" position="0 0.04 0" sq-collider="recursive: true"></a-entity>
       <!--a-entity scale="3 3 3" src="#grass-obj" mtl="#grass-mtl" position="0 0.04 0" sq-boxcollider></a-entity-->
-      <a-entity scale="3 3 3" obj-model="obj: #grass-obj; mtl: #grass-mtl" position="0 0 0" rotation="0 0 0" sq-boxcollider></a-entity>
+      <!--a-entity scale="3 3 3" obj-model="obj: #grass-obj; mtl: #grass-mtl" position="0 0 0" rotation="0 0 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #land-obj; mtl: #land-mtl" position="0 0 0" rotation="0 0 0" sq-boxcollider="size: 100,0.1,100"></a-entity>
 
       <a-entity scale="3 3 3" obj-model="obj: #firelogs-obj; mtl: #grass-mtl" position="1.3 0 1.6" rotation="0 0 0" sq-boxcollider="recursive: true"></a-entity>
 
       <a-entity scale="1.5 1.5 1.5" obj-model="obj: #beer-obj; mtl: #beer-mtl" position="30 0 55" rotation="0 90 0" sq-boxcollider></a-entity>
       
-      <a-entity scale="1.45 1.45 1.45" obj-model="obj: #speakers-obj; mtl: #speakers-mtl" position="-8.5 0 50.75" rotation="0 0 0" sq-boxcollider></a-entity>
+      <a-entity scale="1.45 1.45 1.45" obj-model="obj: #speakers-obj; mtl: #speakers-mtl" position="-8.5 0 50.75" rotation="0 0 0" sq-boxcollider></a-entity-->
 
     <!-- Lakes -->
       <a-entity position="0 0 0">
@@ -128,7 +130,7 @@
 
     <!-- Tree Model 1 object adds-->
 
-      <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="22 15 15" sq-boxcollider></a-entity>
+      <!--a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="22 15 15" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-17 15 21" rotation="0 60 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-25 15 12" rotation="0 60 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-47 15 -47" rotation="0 136 0" sq-boxcollider></a-entity>
@@ -197,11 +199,11 @@
       <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-267.02 32.45 368.32" rotation="0 286 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-225.34 24.22 388.23" rotation="0 286 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-542.85 24.22 287.84" rotation="0 286 0" sq-boxcollider></a-entity>
-      <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-539.85 21.03 309.1" rotation="0 286 0" sq-boxcollider></a-entity>
+      <a-entity scale="3 3 3" obj-model="obj: #tree1-obj; mtl: #grass-mtl" position="-539.85 21.03 309.1" rotation="0 286 0" sq-boxcollider></a-entity-->
 
     <!-- Tree Model 2 object adds-->
 
-      <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="6 15 -15" rotation="0 10 0" sq-boxcollider></a-entity>
+      <!--a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="6 15 -15" rotation="0 10 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="-60 15 -15" rotation="0 210 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="-49 15 -85" rotation="0 190 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="60 15 -60" rotation="0 90 0" sq-boxcollider></a-entity>
@@ -242,11 +244,11 @@
       <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="-556.9 20.34 296.31" rotation="0 210 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="-244.48 24.54 389.87" rotation="0 210 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="277.78 21.24 362.69" rotation="0 210 0" sq-boxcollider></a-entity>
-      <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="478.89 40.21 463.99" rotation="0 210 0" sq-boxcollider></a-entity>
+      <a-entity scale="3 3 3" obj-model="obj: #tree2-obj; mtl: #grass-mtl" position="478.89 40.21 463.99" rotation="0 210 0" sq-boxcollider></a-entity-->
 
     <!-- Tree Model 3 object adds-->
 
-      <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="10 15 -20" rotation="0 160 0" sq-boxcollider></a-entity>
+      <!--a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="10 15 -20" rotation="0 160 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="74 15 -56" rotation="0 100 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="-36 15 -70" rotation="0 240 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="36 15 70" rotation="0 40 0" sq-boxcollider></a-entity>
@@ -306,7 +308,7 @@
       <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="-384.82 32.32 -11.42" rotation="0 40 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="-374.72 22.16 -96.94" rotation="0 40 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="-319.83 28.1 -95.65" rotation="0 40 0" sq-boxcollider></a-entity>
-      <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="-240.69 34.41 -93.45" rotation="0 40 0" sq-boxcollider></a-entity>
+      <a-entity scale="3 3 3" obj-model="obj: #tree3-obj; mtl: #grass-mtl" position="-240.69 34.41 -93.45" rotation="0 40 0" sq-boxcollider></a-entity-->
 
 
 
@@ -315,10 +317,10 @@
 
     <!-- Building adds-->
       
-      <a-entity scale="3 3 3" obj-model="obj: #str1-obj; mtl: #grass-mtl" position="41 2.7 -26" rotation="0 0 0" sq-boxcollider></a-entity>
+      <!--a-entity scale="3 3 3" obj-model="obj: #str1-obj; mtl: #grass-mtl" position="41 2.7 -26" rotation="0 0 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #str2-obj; mtl: #grass-mtl" position="0.2 0 -4.43" rotation="0 12 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #base1-obj; mtl: #grass-mtl" position="7 0 -0.1" rotation="0 0 0" sq-boxcollider></a-entity>
-      <a-entity scale="2.0 2.0 2.0" obj-model="obj: #str3-obj; mtl: #grass-mtl" position="-37.5 0 -0.1" rotation="0 0 0" sq-boxcollider></a-entity>
+      <a-entity scale="2.0 2.0 2.0" obj-model="obj: #str3-obj; mtl: #grass-mtl" position="-37.5 0 -0.1" rotation="0 0 0" sq-boxcollider></a-entity-->
      
     <!-- Sky load and animation -->
 
