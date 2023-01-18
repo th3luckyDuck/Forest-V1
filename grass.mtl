@@ -1,5 +1,5 @@
 # Blender MTL File: 'None'
-# Material Count: 6
+# Material Count: 5
 
 newmtl Grass_Dark_GreenMaterial
 Ns 96.078431
@@ -50,13 +50,3 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd rock.512x512.jpg
-
-newmtl waterMaterial
-Ns 96.078431
-Ka 0.000000 0.000000 0.000000
-Kd 0.690196 0.690196 0.690196
-Ks 0.001176 0.001176 0.001176
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd water.1024x512.jpg
