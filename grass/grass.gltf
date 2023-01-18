@@ -1,0 +1,548 @@
+{
+  "accessors": {
+    "accessor_index_0": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 13248,
+      "type": "SCALAR",
+      "min": [
+        0
+      ],
+      "max": [
+        9784
+      ]
+    },
+    "accessor_index_1": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 26496,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 960,
+      "type": "SCALAR",
+      "min": [
+        280
+      ],
+      "max": [
+        9734
+      ]
+    },
+    "accessor_index_2": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 28416,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 900,
+      "type": "SCALAR",
+      "min": [
+        2026
+      ],
+      "max": [
+        5330
+      ]
+    },
+    "accessor_index_3": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 30216,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 72,
+      "type": "SCALAR",
+      "min": [
+        2505
+      ],
+      "max": [
+        4838
+      ]
+    },
+    "accessor_index_4": {
+      "bufferView": "bufferView_1",
+      "byteOffset": 30360,
+      "byteStride": 0,
+      "componentType": 5123,
+      "count": 15402,
+      "type": "SCALAR",
+      "min": [
+        5531
+      ],
+      "max": [
+        9242
+      ]
+    },
+    "accessor_position": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 0,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 9785,
+      "min": [
+        -16.88152313232422,
+        -5.762750148773193,
+        -16.102025985717773
+      ],
+      "max": [
+        19.340896606445312,
+        11.09539794921875,
+        27.58357810974121
+      ],
+      "type": "VEC3"
+    },
+    "accessor_normal": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 117420,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 9785,
+      "type": "VEC3",
+      "min": [
+        -1,
+        -1,
+        -1
+      ],
+      "max": [
+        1,
+        1,
+        1
+      ]
+    },
+    "accessor_uv": {
+      "bufferView": "bufferView_0",
+      "byteOffset": 234840,
+      "byteStride": 0,
+      "componentType": 5126,
+      "count": 9785,
+      "type": "VEC2",
+      "min": [
+        0,
+        -17.506507873535156
+      ],
+      "max": [
+        18.827999114990234,
+        1
+      ]
+    }
+  },
+  "asset": {
+    "generator": "OBJ2GLTF",
+    "premultipliedAlpha": true,
+    "profile": {
+      "api": "WebGL",
+      "version": "1.0"
+    },
+    "version": "1.0"
+  },
+  "buffers": {
+    "buffer_0": {
+      "type": "arraybuffer",
+      "byteLength": 374284,
+      "uri": "buffer_0.bin"
+    }
+  },
+  "bufferViews": {
+    "bufferView_0": {
+      "buffer": "buffer_0",
+      "byteLength": 313120,
+      "byteOffset": 0,
+      "target": 34962
+    },
+    "bufferView_1": {
+      "buffer": "buffer_0",
+      "byteLength": 61164,
+      "byteOffset": 313120,
+      "target": 34963
+    }
+  },
+  "images": {
+    "Grass_Dark_Green.512x512": {
+      "uri": "Grass_Dark_Green.512x512.jpeg"
+    },
+    "bark": {
+      "uri": "bark.jpeg"
+    },
+    "floor": {
+      "uri": "floor.jpeg"
+    },
+    "forest.512x512": {
+      "uri": "forest.512x512.jpeg"
+    },
+    "rock.512x512": {
+      "uri": "rock.512x512.jpeg"
+    }
+  },
+  "materials": {
+    "material_Grass_Dark_GreenMaterial": {
+      "name": "Grass_Dark_GreenMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_Grass_Dark_Green.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_barkMaterial": {
+      "name": "barkMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_bark",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_floorMaterial": {
+      "name": "floorMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_floor",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_forestMaterial": {
+      "name": "forestMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_forest.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    },
+    "material_rockMaterial": {
+      "name": "rockMaterial",
+      "extensions": {},
+      "values": {
+        "ambient": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "diffuse": "texture_rock.512x512",
+        "emission": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "specular": [
+          0.001176,
+          0.001176,
+          0.001176,
+          1
+        ],
+        "shininess": 96.078431,
+        "transparency": 1
+      } 
+    }
+  },
+  "meshes": {
+    "mesh_grass": {
+      "name": "grass",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_0",
+          "material": "material_barkMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_1",
+          "material": "material_forestMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_2",
+          "material": "material_Grass_Dark_GreenMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_3",
+          "material": "material_floorMaterial",
+          "mode": 4
+        },
+        {
+          "attributes": {
+            "POSITION": "accessor_position",
+            "NORMAL": "accessor_normal",
+            "TEXCOORD_0": "accessor_uv"
+          },
+          "indices": "accessor_index_4",
+          "material": "material_rockMaterial",
+          "mode": 4
+        }
+      ]
+    }
+  },
+  "nodes": {
+    "rootNode": {
+      "children": [],
+      "meshes": [
+        "mesh_grass"
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  },
+  "samplers": {
+    "sampler_0": {
+      "magFilter": 9729,
+      "minFilter": 9986,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  },
+  "scene": "scene_grass",
+  "scenes": {
+    "scene_grass": {
+      "nodes": [
+        "rootNode"
+      ]
+    }
+  },
+  "textures": {
+    "texture_Grass_Dark_Green.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "Grass_Dark_Green.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_bark": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "bark",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_floor": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "floor",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_forest.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "forest.512x512",
+      "target": 3553,
+      "type": 5121
+    },
+    "texture_rock.512x512": {
+      "format": 6407,
+      "internalFormat": 6407,
+      "sampler": "sampler_0",
+      "source": "rock.512x512",
+      "target": 3553,
+      "type": 5121
+    }
+  },
+  "extensionsUsed": [],
+  "animations": {},
+  "cameras": {},
+  "techniques": {
+    "technique0": {
+      "attributes": {
+        "a_position": "position",
+        "a_normal": "normal",
+        "a_texcoord_0": "texcoord_0"
+      },
+      "parameters": {
+        "modelViewMatrix": {
+          "semantic": "MODELVIEW",
+          "type": 35676
+        },
+        "projectionMatrix": {
+          "semantic": "PROJECTION",
+          "type": 35676
+        },
+        "normalMatrix": {
+          "semantic": "MODELVIEWINVERSETRANSPOSE",
+          "type": 35675
+        },
+        "ambient": {
+          "type": 35666
+        },
+        "diffuse": {
+          "type": 35678
+        },
+        "emission": {
+          "type": 35666
+        },
+        "specular": {
+          "type": 35666
+        },
+        "shininess": {
+          "type": 5126
+        },
+        "transparency": {
+          "type": 5126
+        },
+        "position": {
+          "semantic": "POSITION",
+          "type": 35665
+        },
+        "normal": {
+          "semantic": "NORMAL",
+          "type": 35665
+        },
+        "texcoord_0": {
+          "semantic": "TEXCOORD_0",
+          "type": 35664
+        }
+      },
+      "program": "program0",
+      "states": {
+        "enable": [
+          2884,
+          2929
+        ]
+      },
+      "uniforms": {
+        "u_modelViewMatrix": "modelViewMatrix",
+        "u_projectionMatrix": "projectionMatrix",
+        "u_normalMatrix": "normalMatrix",
+        "u_ambient": "ambient",
+        "u_diffuse": "diffuse",
+        "u_emission": "emission",
+        "u_specular": "specular",
+        "u_shininess": "shininess",
+        "u_transparency": "transparency"
+      }
+    }
+  },
+  "programs": {
+    "program0": {
+      "attributes": [
+        "a_position",
+        "a_normal",
+        "a_texcoord_0"
+      ],
+      "fragmentShader": "fragmentShader0",
+      "vertexShader": "vertexShader0"
+    }
+  },
+  "shaders": {
+    "vertexShader0": {
+      "type": 35633,
+      "uri": "vertexShader0.glsl"
+    },
+    "fragmentShader0": {
+      "type": 35632,
+      "uri": "fragmentShader0.glsl"
+    }
+  },
+  "skins": {},
+  "extensions": {}
+}
