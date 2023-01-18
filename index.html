@@ -22,8 +22,8 @@
 
       <!-- Asset Loading -->
 
-      <a-assets>
-        <a-asset-item id="grass-glb" src="grass.glb"></a-asset-item>
+      <!--a-assets>
+        <a-asset-item id="grass-glb" src="grass.glb"></a-asset-item-->
         <!--a-asset-item id="grass-mtl" src="grass.mtl"></a-asset-item>
         <a-asset-item id="grass-obj" src="grass.obj"></a-asset-item>
         <a-asset-item id="land-mtl" src="land.mtl"></a-asset-item>
@@ -54,7 +54,7 @@
         <!--img id="sign3" src="sign3.jpg"-->
 
 
-      </a-assets>
+      <!--/a-assets-->
 
 
 
@@ -98,7 +98,7 @@
      
     <!-- Landscape object add -->
 
-      <a-entity scale="1 1 1" gltf-model="#grass-glb" position="0 0 0" sq-collider="recursive: true"></a-entity>
+      <a-entity scale="1 1 1" gltf-model="grass.glb" position="0 0 0" sq-nonconvexcollider="recursive: true"></a-entity>
       <!--a-entity scale="3 3 3" src="#grass-obj" mtl="#grass-mtl" position="0 0.04 0" sq-boxcollider></a-entity-->
       <!--a-entity scale="3 3 3" obj-model="obj: #grass-obj; mtl: #grass-mtl" position="0 0 0" rotation="0 0 0" sq-boxcollider></a-entity>
       <a-entity scale="3 3 3" obj-model="obj: #land-obj; mtl: #land-mtl" position="0 0 0" rotation="0 0 0" sq-boxcollider="size: 100,0.1,100"></a-entity>
